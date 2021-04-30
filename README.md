@@ -58,8 +58,8 @@ you should use the [`craco-antd`](https://github.com/DocSpring/craco-antd) plugi
 
 `craco-less` is tested with:
 
-- `react-scripts`: `^3.2.0`
-- `@craco/craco`: `^5.5.0`
+- `react-scripts`: `^4.0.0`
+- `@craco/craco`: `^6.0.0`
 
 ## Installation
 
@@ -236,3 +236,4 @@ Before submitting a pull request, please check the following:
 - [swillis12](https://github.com/swillis12)
 - [nutgaard](https://github.com/nutgaard)
 - [alexander-svendsen](https://github.com/alexander-svendsen)
+- [mdluo](https://github.com/mdluo)
