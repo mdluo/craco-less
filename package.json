@@ -1,6 +1,6 @@
 {
   "name": "@mdluo/craco-less",
-  "version": "1.17.1",
+  "version": "1.18.0-beta.1",
   "description": "A Less plugin for craco / react-scripts / create-react-app",
   "main": "lib/craco-less.js",
   "scripts": {
