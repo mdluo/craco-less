@@ -68,11 +68,11 @@ First, follow the [`craco` Installation Instructions](https://github.com/sharega
 Then install `craco-less`:
 
 ```bash
-$ yarn add craco-less
+$ yarn add @mdluo/craco-less
 
 # OR
 
-$ npm i -S craco-less
+$ npm i @mdluo/craco-less
 ```
 
 ## Usage
@@ -80,7 +80,7 @@ $ npm i -S craco-less
 Here is a complete `craco.config.js` configuration file that adds Less compilation to `create-react-app`:
 
 ```js
-const CracoLessPlugin = require('craco-less');
+const CracoLessPlugin = require('mdluo/craco-less');
 
 module.exports = {
   plugins: [{ plugin: CracoLessPlugin }],
@@ -121,7 +121,7 @@ You can pass an `options` object to configure the loaders and plugins. You can a
 For example, to configure `less-loader`:
 
 ```js
-const CracoLessPlugin = require('craco-less');
+const CracoLessPlugin = require('mdluo/craco-less');
 
 module.exports = {
   plugins: [
@@ -149,7 +149,7 @@ module.exports = {
 You can configure the [`css-loader` options](https://webpack.js.org/loaders/css-loader/#options) to set up CSS modules. For example:
 
 ```js
-const CracoLessPlugin = require('craco-less');
+const CracoLessPlugin = require('mdluo/craco-less');
 
 module.exports = {
   plugins: [
