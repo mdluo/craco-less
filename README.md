@@ -80,10 +80,10 @@ $ npm i -S craco-less
 Here is a complete `craco.config.js` configuration file that adds Less compilation to `create-react-app`:
 
 ```js
-const CracoLessPlugin = require("craco-less");
+const CracoLessPlugin = require('craco-less');
 
 module.exports = {
-  plugins: [{ plugin: CracoLessPlugin }]
+  plugins: [{ plugin: CracoLessPlugin }],
 };
 ```
 
@@ -121,7 +121,7 @@ You can pass an `options` object to configure the loaders and plugins. You can a
 For example, to configure `less-loader`:
 
 ```js
-const CracoLessPlugin = require("craco-less");
+const CracoLessPlugin = require('craco-less');
 
 module.exports = {
   plugins: [
@@ -131,16 +131,16 @@ module.exports = {
         lessLoaderOptions: {
           lessOptions: {
             modifyVars: {
-              "@primary-color": "#1DA57A",
-              "@link-color": "#1DA57A",
-              "@border-radius-base": "2px"
+              '@primary-color': '#1DA57A',
+              '@link-color': '#1DA57A',
+              '@border-radius-base': '2px',
             },
-            javascriptEnabled: true
-          }
-        }
-      }
-    }
-  ]
+            javascriptEnabled: true,
+          },
+        },
+      },
+    },
+  ],
 };
 ```
 
@@ -149,7 +149,7 @@ module.exports = {
 You can configure the [`css-loader` options](https://webpack.js.org/loaders/css-loader/#options) to set up CSS modules. For example:
 
 ```js
-const CracoLessPlugin = require("craco-less");
+const CracoLessPlugin = require('craco-less');
 
 module.exports = {
   plugins: [
@@ -157,11 +157,11 @@ module.exports = {
       plugin: CracoLessPlugin,
       options: {
         cssLoaderOptions: {
-          modules: { localIdentName: "[local]_[hash:base64:5]" }
-        }
-      }
-    }
-  ]
+          modules: { localIdentName: '[local]_[hash:base64:5]' },
+        },
+      },
+    },
+  ],
 };
 ```
 
