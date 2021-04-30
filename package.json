@@ -1,6 +1,6 @@
 {
   "name": "craco-less",
-  "version": "1.17.1",
+  "version": "2.0.0",
   "description": "A Less plugin for craco / react-scripts / create-react-app",
   "main": "lib/craco-less.js",
   "scripts": {
@@ -24,41 +24,30 @@
   },
   "homepage": "https://github.com/DocSpring/craco-less#readme",
   "devDependencies": {
-    "@craco/craco": "^5.6.4",
-    "clone": "^2.1.2",
+    "@craco/craco": "^6.1.2",
     "coveralls": "^3.0.2",
-    "eslint": "6.4.0",
-    "eslint-config-prettier": "^6.3.0",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.0.0",
-    "husky": "^3.0.5",
-    "jest": "^24.9.0",
-    "lint-staged": "^9.4.0",
-    "prettier": "^1.15.3",
-    "react-scripts": "^3.3.1",
-    "webpack": "4.41.5"
+    "eslint-plugin-promise": "^4.2.1",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "lodash": "^4.17.21",
+    "prettier": "^2.2.1",
+    "react-scripts": "^4.0.3",
+    "webpack": "5.36.1"
   },
   "dependencies": {
-    "less": "^3.11.1",
-    "less-loader": "^6.1.0"
+    "less": "^4.1.1",
+    "less-loader": "^8.1.1"
   },
   "peerDependencies": {
-    "@craco/craco": "^5.5.0",
-    "react-scripts": "^3.3.0 || ^4.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,md}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
-    ]
+    "@craco/craco": "^5.5.0 || ^6.0.0",
+    "react-scripts": "^4.0.0"
   },
   "resolutions": {
     "react-scripts/webpack-dev-server": ">=3.11.0"
