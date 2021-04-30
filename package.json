@@ -1,5 +1,5 @@
 {
-  "name": "craco-less",
+  "name": "@mdluo/craco-less",
   "version": "1.17.1",
   "description": "A Less plugin for craco / react-scripts / create-react-app",
   "main": "lib/craco-less.js",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/DocSpring/craco-less.git"
+    "url": "git+ssh://git@github.com/mdluo/craco-less.git"
   },
   "keywords": [
     "craco",
@@ -21,9 +21,9 @@
   "author": "Nathan Broadbent",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DocSpring/craco-less/issues"
+    "url": "https://github.com/mdluo/craco-less/issues"
   },
-  "homepage": "https://github.com/DocSpring/craco-less#readme",
+  "homepage": "https://github.com/mdluo/craco-less#readme",
   "devDependencies": {
     "@craco/craco": "^6.1.2",
     "coveralls": "^3.0.2",
