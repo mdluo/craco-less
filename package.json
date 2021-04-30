@@ -41,7 +41,7 @@
     "lodash": "^4.17.21",
     "prettier": "^2.2.1",
     "react-scripts": "^4.0.3",
-    "webpack": "5.36.1"
+    "webpack": "4.44.2"
   },
   "dependencies": {
     "less": "^4.1.1",
